@@ -1,0 +1,24 @@
+{
+  "name": "Add shortcuts to move tabs to left or right",
+  "version": "1.0",
+  "description": "Can be configured in chrome://extensions/configureCommands",
+  "manifest_version": 2,
+  "background": {
+    "page": "background.html"
+  },
+  "offline_enabled": true,
+  "commands": {
+    "move_left": {
+      "suggested_key": {
+        "default": "Ctrl+O"
+      },
+      "description": "Move left"
+    },
+    "move_right": {
+      "suggested_key": {
+        "default": "Ctrl+P"
+      },
+      "description": "Move right"
+    }
+  }
+}
